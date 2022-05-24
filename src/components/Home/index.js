@@ -1,8 +1,9 @@
 import { useEffect, useState } from 'react'
 import './index.scss';
-import LogoTitle from '../../assets/images/logo-s.png'
+import LogoTitle from '../../assets/images/logo-s.png';
 import { Link } from 'react-router-dom';
 import AnimatedLetters from '../AnimatedLetters';
+import Logo from './Logo';
 
 const Home = () => {
 
@@ -31,10 +32,11 @@ const Home = () => {
                     <br />
                     <AnimatedLetters strArray={JobLine} idx={26} letterClass={letterClass} />
                 </h1>
-                <h2>Web Developer / Data Science Enthusiast</h2>
+                <h2>Web Developer | Data Science Enthusiast</h2>
 
                 <Link to="/contact" className="flat-button" > Contact Me </Link>
             </div>
+            <Logo/>
         </div>
     );
 }
