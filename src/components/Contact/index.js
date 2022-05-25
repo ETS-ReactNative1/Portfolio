@@ -2,6 +2,8 @@ import { useState, useEffect, useRef } from 'react';
 import './index.scss';
 import AnimatedLetters from '../AnimatedLetters';
 import emailjs from '@emailjs/browser';
+import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
+import Loader from 'react-loaders';
 
 const Contact = () => {
 
@@ -46,6 +48,7 @@ const Contact = () => {
     return (
         <>
             <div className='container contact-page'>
+
                 <div className='text-zone'>
                     <h1>
                         <AnimatedLetters
@@ -97,8 +100,31 @@ const Contact = () => {
                     </div>
 
                 </div>
+
+                <div className="info">
+                    Utkarsh Sahu,
+                    <br />
+                    India,
+                    <br />
+                    4, Sheetla Square Colony,<br />
+                    Mehndiganj, Lucknow - India.  <br />
+                    PIN - 226003 <br />
+                    <br />
+                    <span>sahuutkarsh03@gmail.com</span>
+                </div>
+
+                <div className="map">
+                <MapContainer center={[26.93053273517661, 80.93596302835844]} zoom={11}>
+                    <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+                    <Marker position={[26.848984, 80.892501]}>
+                        <Popup>I live here, come over for a cup of coffee :) </Popup>
+                    </Marker>
+                </MapContainer>
+                </div>
+
             </div>
 
+            <Loader type="pacman" />
         </>
     );
 }
