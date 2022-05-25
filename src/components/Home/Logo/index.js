@@ -2,7 +2,6 @@ import './index.scss';
 import LogoS from '../../../assets/images/logo-s.png';
 import { useEffect, useRef } from 'react';
 import gsap from 'gsap';
-import { DrawSVGPlugin } from "gsap/DrawSVGPlugin";
 
 const Logo = () => {
 
@@ -12,7 +11,7 @@ const Logo = () => {
 
     useEffect(() => {
         
-        gsap.registerPlugin(DrawSVGPlugin)
+        // gsap.registerPlugin(DrawSVGPlugin)
 
         gsap
             .timeline()
@@ -32,7 +31,7 @@ const Logo = () => {
             },
             {
                 opacity: 1,
-                delay: 2,
+                delay: 3,
                 duration: 4,
             }
         )
