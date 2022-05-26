@@ -1,0 +1,66 @@
+
+.coursecards .card{
+    position: relative;
+    width: 30%;
+    height: 25%;
+    background: #333;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    margin: 1% ;
+}
+
+.coursecards .card .imgBox{
+    width: 100%;
+    height: 100%;
+}
+
+.coursecards .card .imgBox img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.coursecards .card:hover .imgBox img{
+    filter: grayscale(0.4);
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+}
+
+.coursecards .card .contentBox{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-bottom: 20px;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #fff;
+    transform: translateY(200px);
+}
+
+.coursecards .card .contentBox h2{
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.coursecards .card .contentBox a{
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+
+.coursecards .card:hover .contentBox{
+    transform: translateY(0px);
+    transition: all 0.5s ease-in-out;
+    transition-delay: 100ms;
+}

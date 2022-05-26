@@ -53,7 +53,7 @@ const Skills = () => {
                         </div>
 
                         <div className='face3 box'>
-                            <FontAwesomeIcon icon={faReact} color="#61DBFB" />
+                            <FontAwesomeIcon icon={faReact} color="#008B8B" />
                         </div>
 
                         <div className='face4 box'>
@@ -61,11 +61,11 @@ const Skills = () => {
                         </div>
 
                         <div className='face5 box'>
-                            <FontAwesomeIcon icon={faNodeJs} color="#EFD81D" />
+                            <FontAwesomeIcon icon={faNodeJs} color="#3C873A" />
                         </div>
 
                         <div className='face6 box'>
-                            <FontAwesomeIcon icon={faJava} color="#6F4E37" />
+                            <FontAwesomeIcon icon={faJava} color="#6E260E" />
                         </div>
 
                     </div>

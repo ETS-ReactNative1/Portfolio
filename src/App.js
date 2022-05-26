@@ -6,6 +6,7 @@ import Home from './components/Home';
 import About from './components/About';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
+import Courses from './components/Courses';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path='/about' element={ < About /> } />
         <Route path='/skills' element={ < Skills /> } />
         <Route path='/contact' element={ < Contact /> } />
+        <Route path='/coursework' element={ < Courses /> } />
       </Route>
     </Routes>
   </React.Fragment>

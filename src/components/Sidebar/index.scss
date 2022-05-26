@@ -96,6 +96,12 @@
             }
         }
 
+        a.course-link {
+            &:after {
+                content: 'COURSES';
+            }
+        }
+        
         a.active {
             svg {
                 color: #ffd700;
