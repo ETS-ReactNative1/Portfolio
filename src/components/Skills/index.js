@@ -36,9 +36,30 @@ const Skills = () => {
                         />
                     </h1>
                     <p>
-                        sed’s operation is straightforash() acts as a pseudonym for standard input.
-                        sed reads through each file othe pattern space to standar
+                        I am a firm believer of <strong> Learn, Unlearn and Relearn.</strong>
                     </p>
+                    <p>
+                        <strong> ReactJs</strong> &amp; <strong>NodeJs</strong> are my primary stack for 
+                        Web-Development. However, I am also comfortable with <strong>VueJs</strong> &amp;
+                        <strong> Flask </strong>. I use <strong>Git</strong> for Version Control.
+                    </p>
+                    <p>
+                        Being a <strong>Linux</strong> user and I am quite proficient with the 
+                        <strong> Terminal</strong>. <strong>Awk</strong> &amp; <strong>Sed </strong>
+                        are few interseting Command Line Utility which I am familiar with.
+                    </p>
+                    <p>
+                        <strong>Java</strong> is my primary language for practising 
+                        <strong> Data Structures and Algorithms</strong>. I also use <strong>Python </strong>
+                        regularly for Development and other Data Science projects. Last but not the least,
+                        I also have working knowledge of <strong>C++</strong>.
+                    </p>
+                    <p>
+                        I have very strong <strong>Communication Skills</strong> both verbal and written.
+                        I have also been designated various Position of Responsibilty
+                        which prove my <strong>Leadership Qualities</strong> &amp; <strong>Soft Skills</strong>.
+                    </p>
+        
                 </div>
 
                 <div className='stage-cube-cont'>

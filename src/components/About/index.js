@@ -29,24 +29,23 @@ const About = () => {
                             letterClass={letterClass}
                         />
                     </h1>
+
                     <p>
-                        sed’s operation is straightforward. Each file named on the command line is opened
-                        and read,in turn. If there are no files,standard input is used,and the filename “-” (a
-                        single dash) acts as a pseudonym for standard input.
-                        sed reads through each file one line at a time. The line is placed in an area of memory termed the pattern space. This is like a variable in a programming language: an
-                        area of memory that can be changed as desired under the direction of the editing
-                        commands. All editing operations are applied to the contents of the pattern space.
-                        When all operations have been completed, sed prints the final contents of the pattern space to standar
+                        One of my vivid memories is going to a parent-teacher meeting in school and 
+                        having my teacher tell my parents, 
+                        <strong> “ Utkarsh is definitely my most talkitive student but he has lot of Potential! ”</strong>
                     </p>
+
                     <p>
-                        sed’s operation is straightforward. Each file named on the command line is opened
-                        and read,in turn. If there are no files,standard input is used,and the filename “-” (a
-                        single dash) n space to standar
+                    Am I fininshing this <strong>Degree</strong> or is my Degree fininshing <strong>Me? </strong> 
+                    Find out on the next episode of <strong> " WTF is my Life! " </strong>
                     </p>
+
                     <p>
-                        sed’s operation is straightforash() acts as a pseudonym for standard input.
-                        sed reads through each file othe pattern space to standar
+                        I'll <strong>bend over backwards</strong> to help others' dreams come true,
+                        but I also understand the <strong>importance of standing your ground</strong> and holding your own.
                     </p>
+
                 </div>
 
                 <div className='timeline'>
