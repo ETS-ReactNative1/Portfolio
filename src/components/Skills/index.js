@@ -11,6 +11,7 @@ import {
     faLinux
 } from '@fortawesome/free-brands-svg-icons'
 import Loader from 'react-loaders';
+import resume from '../../assets/Utkarsh Sahu.pdf';
 
 
 const Skills = () => {
@@ -51,14 +52,15 @@ const Skills = () => {
                     <p>
                         <strong>Java</strong> is my primary language for practising 
                         <strong> Data Structures and Algorithms</strong>. I also use <strong>Python </strong>
-                        regularly for Development and other Data Science projects. Last but not the least,
-                        I also have working knowledge of <strong>C++</strong>.
+                        regularly for Development and other Data Science projects.
                     </p>
                     <p>
                         I have very strong <strong>Communication Skills</strong> both verbal and written.
                         I have also been designated various Position of Responsibilty
                         which prove my <strong>Leadership Qualities</strong> &amp; <strong>Soft Skills</strong>.
                     </p>
+
+                    <a href={resume} className="flat-button" download="UtkarshSahu.pdf"> Download Resume </a>
         
                 </div>
 

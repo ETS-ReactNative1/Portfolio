@@ -4,6 +4,7 @@ import './index.scss';
 import CourseCard from './Coursecard';
 import courseData from './data';
 
+
 const Courses = () => {
 
     const [letterClass, setLetterClass] = useState('text-animate');
@@ -19,6 +20,7 @@ const Courses = () => {
             <div className="container course-page">
                 
                 <div className='text-zone'>
+
                     <h1>
                         <AnimatedLetters
                             strArray={['C','o','u','r','s','e','w','o','r','k']} // CourseWork
@@ -37,6 +39,7 @@ const Courses = () => {
                         I also enjoyed <strong> Modern Application Development I &amp; II </strong>
                         and learnt a lot about Development while making projects for them.
                     </p>
+
                 </div>
 
                 <div className='coursecards'>
